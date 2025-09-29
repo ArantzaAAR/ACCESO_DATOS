@@ -66,15 +66,21 @@ public class Operaciones {
         File file = new File(path);
 
         System.out.println("Vamos a trabajar con los ficheros de forma recurrente");
-        if (file.isDirectory()){
-            File[ ] fichero = file.listFiles();
-            if (fichero )
-
-        for (File recurrente : ficheroRecurente){
-
-
+        if (file.isDirectory()) {
+            File[] fichero = file.listFiles();
+            if (fichero != null) {
+                for (File ruta : fichero) {
+                    System.out.println(ruta.getAbsolutePath());
+                    if (ruta.isDirectory()) {
+                        System.out.println(ruta.getAbsolutePath());
+                    }
+                }
+            } else {
+                System.out.println("No se puede mostrar el contenido");
+            }
+        }else {
+            System.out.println("La ruta no es correcta");
         }
-
     }
 
     //EJEMPLO PARA ESCRIBIR FICHERO
