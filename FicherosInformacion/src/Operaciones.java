@@ -34,7 +34,7 @@ public class Operaciones {
             System.out.println("Vamos a trabajar con directorios");
             System.out.println("La ruta de este directorio es " + file.getAbsolutePath());
             //cuantos ficheros tengo dentro del directorio
-            //! opcion Saca la lista de lnnombres que hay en la carperta
+            //! opcion Saca la lista de los nombres que hay en la carperta
             String[] nombreFicheros = file.list();
             /*for(String item : nombreFicheros) {
                 //para que no me saque los archivos ocultos
@@ -65,10 +65,14 @@ public class Operaciones {
         //La ruta no puede ser sobre C: porque hay archivos en los que no se tienen permisos
         File file = new File(path);
 
-        System.out.println("Vamos a trabajar con los ficheros de forma recursiva");
-        if(file.listFiles()){
-            String ficheros = null;
-            File[] ficheros = file.listFiles();
+        System.out.println("Vamos a trabajar con los ficheros de forma recurrente");
+        if (file.isDirectory()){
+            File[ ] fichero = file.listFiles();
+            if (fichero )
+
+        for (File recurrente : ficheroRecurente){
+
+
         }
 
     }
@@ -82,7 +86,6 @@ public class Operaciones {
             fileWriter = new FileWriter(file);
         } catch (IOException e) {
             System.out.println("No puedes realizar la escritura");
-            ;
         } finally {
             try {
                 fileWriter.close();
