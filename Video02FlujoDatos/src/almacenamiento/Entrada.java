@@ -21,10 +21,8 @@ public class Entrada {
             //como me devuelve un número lo igual
             int lectura = -1;
 
-            //mientras la lectura sea igual  y distinto de -1
+            //me saca todos los números en tabla ASCII
             while ((lectura = fileReader.read()) != -1)  {
-
-                //me saca todos los números en tabla ASCII
                 System.out.println(lectura);
             }
 

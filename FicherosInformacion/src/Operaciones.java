@@ -1,3 +1,5 @@
+import org.w3c.dom.ls.LSOutput;
+
 import java.io.*;
 import java.io.IOException;
 
@@ -58,10 +60,16 @@ public class Operaciones {
     }
 
 
-    public void mostrarFicherosRecurrentes() {
+    public void mostrarFicherosRecurrentes(String path) {
         //mostrar todos los ficheros y hacerlo de una forma recursiva.
         //La ruta no puede ser sobre C: porque hay archivos en los que no se tienen permisos
-        //File file = new File();
+        File file = new File(path);
+
+        System.out.println("Vamos a trabajar con los ficheros de forma recursiva");
+        if(file.listFiles()){
+            String ficheros = null;
+            File[] ficheros = file.listFiles();
+        }
 
     }
 

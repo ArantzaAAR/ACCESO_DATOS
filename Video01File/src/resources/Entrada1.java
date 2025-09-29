@@ -43,7 +43,7 @@ public class Entrada1 {
         */
 
         File [] listaFicheros = f.listFiles();
-        for (File file :listaFicheros){
+        for (File file : listaFicheros){
             System.out.println(file.getName());
             System.out.println(file.getAbsoluteFile());
         }

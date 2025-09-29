@@ -1,18 +1,24 @@
 package main;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 
 public class Main {
     public static void main(String[] args) {
-        File file = new File("src\\resources\\escritura\\escritura");
+        File file = new File("src\\resources\\escritura.txt");
+        //CON ESTE MÉTODO LO SACAMOS EN ASCII Y LO TENEMOS QUE MODIFICAR
         FileReader reader = null;
+        //CON ESTE METODO LO LEE DIRECTAMENTE COMO STRING
+        BufferedReader bufferedReader = null;
 
-        try {
+        //CODIGO DE FILEREADER
+        /*try {
             reader = new FileReader(file);
-            System.out.println(reader.read());
+            int lectura = -1;
+
+            while ((lectura = reader.read()) != -1) {
+                //PARA CONVERTIR EL CÓDIGO ASCII A SU CARACTER REAL
+                System.out.println(Character.toChars(lectura));
+            }
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         } catch (IOException e) {
@@ -23,8 +29,33 @@ public class Main {
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
+        }*/
+
+        //CODIGO BUFFEREDREADER
+        try {
+            reader = new FileReader(file);
+            bufferedReader = new BufferedReader(reader);
+            String lectura = null;
+
+            while ((lectura = bufferedReader.readLine()) != null) {
+                //PARA CONVERTIR EL CÓDIGO ASCII A SU CARACTER REAL
+                String[ ] palabras = lectura.split( " ");
+                for(String item: palabras) {
+                    System.out.println(Character.toChars(Integer.parseInt(item)));
+                }
+            }
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        } finally {
+            try {
+                bufferedReader.close();
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
         }
-
-
     }
 }
+
+
