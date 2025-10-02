@@ -204,7 +204,7 @@ public class Operaciones {
             //para que continue con la lectura hasta que se termine, cuando encuentre un -1
             int lectorCodigo = 0;
             while((lectorCodigo = reader.read()) != -1) {
-                System.out.print((char) lectorCodigo / 5);
+                System.out.print((char) (lectorCodigo / 5));
             }
 
         } catch (FileNotFoundException e) {
