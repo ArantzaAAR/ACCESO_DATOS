@@ -4,6 +4,7 @@ import org.w3c.dom.ls.LSOutput;
 import java.io.*;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class Operaciones {
 
@@ -77,7 +78,7 @@ public class Operaciones {
     //METODO PARA MOSTRAR FICHEROS Y DIRECTORIOS RECURSIVA O RECURRENTE NO CONOZCO RUTA O NOMBRE
     public void mostrarFicherosRecurrentes(String path) {
         //mostrar todos los ficheros y hacerlo de una forma recursiva.
-        //La ruta no puede ser sobre C: porque hay archivos en los que no se tienen permisos
+        //La ruta no puede ser sobre C: porque hay archivos en los que no se tienen permisos de acceso
         File file = new File(path);
         System.out.println("El nombre de la carpeta a analizar es: " + file.getName());
         if (file.isDirectory()) {
@@ -148,7 +149,7 @@ public class Operaciones {
         }
     }
 
-    //ESCRITURA CON ALTO LÍNEA IMPLÍCITA
+    //ESCRITURA CON SALTO LÍNEA IMPLÍCITA
     public void escrituraSuperior(String path) {
         File file = new File(path);
         //FileWriter fileWriter = null; no es necesario incluir esta línea por el constructor implícito
@@ -170,32 +171,33 @@ public class Operaciones {
     }
 
     //ENVIAR LISTA DE DATOS A UN CVS
-    public void exportarUsuario(String path){
-        ArrayList<Usuario> listaUsuarios = new ArrayList<>();
+    public void exportarUsuario(String path) {
+        ArrayList<Usuario> listaUsuarios = new ArrayList<>();//Creamos los objetos
         listaUsuarios.add(new Usuario(1, "Arantza1", "Alcázar1", "1234A", "arantza@gmail.com"));
         listaUsuarios.add(new Usuario(2, "Arantza2", "Alcázar2", "1234A", "arantza@gmail.com"));
         listaUsuarios.add(new Usuario(3, "Arantza3", "Alcázar3", "1234A", "arantza@gmail.com"));
         listaUsuarios.add(new Usuario(4, "Arantza4", "Alcázar4", "1234A", "arantza@gmail.com"));
         listaUsuarios.add(new Usuario(5, "Arantza5", "Alcázar5", "1234A", "arantza@gmail.com"));
 
-        File file =  new File(path); //creo el fichero donde lo va a almacenar
+        File file = new File(path); //creo el fichero donde lo va a almacenar
         PrintWriter printWriter = null; //creo el printWrtier para que lo almacene con salto de línea
 
-        try {
+        try {//el objeto me lo llevo a un texto plano.txt
             printWriter = new PrintWriter(new FileWriter(file, true)); //lo inicializo y como quiero anexar cosas, añado append
-            printWriter.println("id, nombre, apellido, dni, correo");
-            for (Usuario usuario : listaUsuarios) {
+            printWriter.println("id, nombre, apellido, dni, correo"); //los escribimos con esta estructura
+            for (Usuario usuario : listaUsuarios) { //recorro la lista con el ArrayList
                 printWriter.println(usuario);
             }
         } catch (IOException e) {
             throw new RuntimeException(e);
-        }finally{
-            printWriter.close();;
+        } finally {
+            printWriter.close();
+            ;
         }
     }
 
     //METODO DE LECTURA PARA DESCIFRADO DE MENSAJE
-    public void  lecturaFichero (String path) {
+    public void lecturaFichero(String path) {
         File file = new File(path); //creo el archivo con el path que existe
         FileReader reader = null; //creo el FileReader e igualo a nulo para cerrarlo
 
@@ -203,7 +205,7 @@ public class Operaciones {
             reader = new FileReader(file); //pongo en modo lectura el reader
             //para que continue con la lectura hasta que se termine, cuando encuentre un -1
             int lectorCodigo = 0;
-            while((lectorCodigo = reader.read()) != -1) {
+            while ((lectorCodigo = reader.read()) != -1) {
                 System.out.print((char) (lectorCodigo / 5));
             }
 
@@ -219,4 +221,127 @@ public class Operaciones {
             }
         }
     }
+
+    //ESCRIBIR OBJETO .OBJ o .DAT
+    public void escribirObjeto(String path) {
+        File file = new File(path);
+        /* Si no existe el FIle, se crea
+        if (!file.exist) {
+            createNewFile();
+            }
+         */
+        Scanner lector = new Scanner(System.in);//5- para leer el fichero
+        FileOutputStream fos = null;//2- Creo el flujo de objeto. Igualo a nulo para tratar las excepciones
+        ObjectOutputStream oos = null; // 1- quiero hacer escritura. Igualo a nulo para tratar las excepciones
+
+        /*
+        esta estructura no falla, pero es muy largo
+        //para que no falle file, se mete en un do while. DO, pero ha fallado la creación del fichero, confirmo que quiero crearlo, lo crea y WHILE vuelve a ejecutarlo
+        //si digo que no se va directo a WHILE y no lo crea
+        boolean fallo = false; //creo e inicializo fallo en false
+        do {
+            try {
+                fos = new FileOutputStream(file); //3- inicializo e indico el fichero que quiero poner en flujo saliente. Da un posible error, meto try/cacth
+            } catch (FileNotFoundException e) {
+                System.out.println("El fichero no existe. ¿Quieres crearlo?"); //4- introduzco el mensaje que quiero que muestre
+                boolean crear = lector.nextBoolean();//6- lee el literal true o false
+                if (crear) {
+                    fallo = true; // si el fichero no existe y quiero crearlo, lo igualo a true
+                    try {//da error porque no tienes permisos para crear fichero
+                        file.createNewFile();//7- crear el fichero
+                    } catch (IOException ex) {
+                        System.out.println("No tienes permisos para crear ficheros");
+                        ;
+                    }
+                }
+            }
+        }while (fallo);
+        */
+
+        //metodo simplificado para crear un fichero con objetos dando por hecho que el fichero existe
+        try {
+            fos = new FileOutputStream(file);//1- inicializo e indico el fichero que quiero poner en flujo saliente. Da un posible error, meto try/cacth
+            oos = new ObjectOutputStream(fos);//indico que el fichero fos quiero ponerlo en modo salida de  objeto. Añado clausula catch. No permiso
+            oos.writeObject((new Usuario(1, "Borja", "Martin", "borja@unir.com", "1234")));
+            //creo el objeto en oos con writeObject pero tengo otras opciones en write. Se puede hacer ArrayList para muchos objetos
+        } catch (FileNotFoundException e) {
+            System.out.println("El fichero no existe");
+        } catch (IOException e) {
+            System.out.println("No tienes permiso de escritura de ficheros");
+            ;
+        }finally {
+            try {
+                oos.close(); //siempre tengo que cerrar la operacion,
+            } catch (IOException | NullPointerException e) {// IOException podría fallar el cerrado - NullPointerException no se ha podido inicializar
+                System.out.println("Error en el cerrado del fichero");
+            }
+        }
+    }
+
+    //PARA LEER UN OBJETO DE UN FICHERO
+    public void leerObjeto(String path){
+        File file = new File(path);
+
+        FileInputStream fis = null;//2- Creo el flujo de objeto. Igualo a nulo para tratar las excepciones
+        ObjectInputStream ois = null; // 1- quiero hacer escritura. Igualo a nulo para tratar las excepciones
+
+        try {
+            fis = new FileInputStream(file); //3- inicializo fis
+            ois = new ObjectInputStream(fis); //5- //indico que el fichero fis quiero ponerlo en modo escritura de  objeto. Añado clausula catch. No permiso
+            Usuario usuario = (Usuario) ois.readObject();//6- pongo en modo lectura el objeto, pero da error de clase de lectura. Hay que castearlo
+            System.out.println(usuario.getNombre());
+            System.out.println(usuario.getCorreo());
+        } catch (FileNotFoundException e) {
+            System.out.println("Error, el fichero no se encuentra"); //4- incluyo mensaje de Excepcion
+        } catch (IOException e) {
+            System.out.println("No tienes permisos de lectura");//5
+        } catch (ClassNotFoundException | ClassCastException e) {//6 e incluyo la excepcion de ClassCastException
+            System.out.println("Errror en la clase de lectura");
+        } finally {//5- cierro el flujo
+            try {
+                ois.close();//siempre tengo que cerrar la operacion,
+            } catch (IOException | NullPointerException e) {// incluyo el NullPointer  no se ha podido inicializar
+                System.out.println("Error en el cerrado");
+            }
+        }
+
+    }
+
+    //PARA LEER UN ARRAYLIST
+    /*
+     public void leerObjeto(String path){
+        File file = new File(path);
+
+        FileInputStream fis = null;//2- Creo el flujo de objeto. Igualo a nulo para tratar las excepciones
+        ObjectInputStream ois = null; // 1- quiero hacer escritura. Igualo a nulo para tratar las excepciones
+
+        try {
+            fis = new FileInputStream(file); //3- inicializo fis
+            ois = new ObjectInputStream(fis); //5- //indico que el fichero fis quiero ponerlo en modo escritura de  objeto. Añado clausula catch. No permiso
+            Usuario usuario = null; //CREAR UN USUARIO
+
+            while (usuario =(Usuario) ois.readObject()) !=null{
+                System.out.println(usuario.getNombre());
+                System.out.println(usuario.getCorreo());
+            }
+        } catch (FileNotFoundException e) {
+            System.out.println("Error, el fichero no se encuentra"); //4- incluyo mensaje de Excepcion
+        } catch (IOException e) {
+            System.out.println("No tienes permisos de lectura");//5
+        } catch (ClassNotFoundException | ClassCastException e) {//6 e incluyo la excepcion de ClassCastException
+            System.out.println("Error en la clase de lectura");
+        } finally {//5- cierro el flujo
+            try {
+                ois.close();//siempre tengo que cerrar la operacion,
+            } catch (IOException | NullPointerException e) {// incluyo el NullPointer  no se ha podido inicializar
+                System.out.println("Error en el cerrado");
+            }
+        }
+
+    }
+     */
 }
+
+//EN EL PROGRAMA, SOLO SI EXISTE EL FICHERO, IMPORTAR EN UN ARRAYLIST TODOS LOS USUARIOS DEL MISMO
+//SI EL PROGRAMA CIERRA, SI EL FICHERO EXISTE, ANEXA INFORMACIÓN
+//SI EL PROGRAMA CIERRA, EI EL FICHERO NO EXISTE, LO CREA Y GUARDA INFORMACIÓN

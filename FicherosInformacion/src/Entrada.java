@@ -11,6 +11,8 @@ public class Entrada {
         //operaciones.cifrarMensaje("src/resources/escritura.txt");
         //operaciones.escrituraSuperior("src/resources/escrituraSuperior.txt");
         //operaciones.exportarUsuario("src/resources/Usuarios.csv");
-        operaciones.lecturaFichero("src/resources/escritura.txt");
+        //operaciones.lecturaFichero("src/resources/escritura.txt");
+        //operaciones.escribirObjeto("src/resources/usuario.obj");
+        operaciones.leerObjeto(  "src/resources/usuario.obj");
     }
 }
