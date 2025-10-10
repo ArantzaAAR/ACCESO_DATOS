@@ -1,0 +1,41 @@
+<?xml version ="1.1" encoding="UTF-8"?>
+<!--Solo puede haber un nodo root PERSONA -->
+<personas>
+    <!-- Dentro se introducen todos los nodos PERSONA que se necesiten y dentro se incluyen los atributos-->
+    <persona dni="1234A" cuidad="Madrid"> <!--un nodo puede tener atributos-->
+        <!--un nodo puede tener contenido-->
+        <nombre>
+            Juan
+        </nombre>
+        <apellido procendencia="paterna"> <!--el contenido puede tener atributos-->
+            Morote
+        </apellido>
+        <telefono>
+            123123123
+        </telefono>
+    </persona>
+    <!-- Se introducen tanto nodos como queramos-->
+    <persona dni="2345A" cuidad="Madrid">
+        <nombre>
+            Arantza
+        </nombre>
+        <apellido>
+            Alcazar
+        </apellido>
+        <telefono>
+            234234234
+        </telefono>
+    </persona>
+    <!-- Otro nodo-->
+    <persona dni="345A" cuidad="Moscu">
+        <nombre>
+            César
+        </nombre>
+        <apellido>
+            Alcazar
+        </apellido>
+        <telefono>
+            345345345
+        </telefono>
+    </persona>
+</personas>

@@ -63,7 +63,8 @@ public class Operaciones {
     }
 
 
-    //METODO PARA MOSTRAR FiCHEROS Y DIRECTORIOS DE FORMA RECURSIVA O RECURRENTE SI CONOZCO NOMBRE O RUTA
+    //METODO PARA MOSTRAR FiCHEROS Y DIRECTORIOS DE FORMA RECURSIVA O RECURRENTE
+    //SI CONOZCO NOMBRE O RUTA
     public void mostrarFicherosRecurrentes(File file) {
         //mostrar todos los ficheros y hacerlo de una forma recursiva.
         //La ruta no puede ser sobre C: porque hay archivos en los que no se tienen permisos
@@ -170,7 +171,7 @@ public class Operaciones {
         }
     }
 
-    //ENVIAR LISTA DE DATOS A UN CVS
+    //EXPORTAR O ENVIAR LISTA DE DATOS A UN CVS
     public void exportarUsuario(String path) {
         ArrayList<Usuario> listaUsuarios = new ArrayList<>();//Creamos los objetos
         listaUsuarios.add(new Usuario(1, "Arantza1", "Alcázar1", "1234A", "arantza@gmail.com"));
@@ -183,7 +184,7 @@ public class Operaciones {
         PrintWriter printWriter = null; //creo el printWrtier para que lo almacene con salto de línea
 
         try {//el objeto me lo llevo a un texto plano.txt
-            printWriter = new PrintWriter(new FileWriter(file, true)); //lo inicializo y como quiero anexar cosas, añado append
+            printWriter = new PrintWriter(new FileWriter(file)); //lo inicializo y como quiero anexar cosas, añado append
             printWriter.println("id, nombre, apellido, dni, correo"); //los escribimos con esta estructura
             for (Usuario usuario : listaUsuarios) { //recorro la lista con el ArrayList
                 printWriter.println(usuario);
@@ -191,10 +192,56 @@ public class Operaciones {
         } catch (IOException e) {
             throw new RuntimeException(e);
         } finally {
-            printWriter.close();
-            ;
+            if (printWriter != null) {
+                printWriter.close();
+            }
         }
     }
+
+    //METODO PARA IMPORTAR  O LEER UNA LISTA DE DATOS DE UN CSV
+    //se hace con BufferedReader
+    public void importarCsv(String path) {
+        File file = new File(path);
+        BufferedReader br = null;
+        ArrayList<Usuario> listado = new ArrayList<>(); //creo la variable listado para importar el ArrayList String
+        try {
+            br = new BufferedReader(new FileReader(file));
+            String linea = br.readLine();
+            while((linea = br.readLine()) !=null) {
+                String[] datos = linea.split(","); //split divide un String en partes usando la coma para devolver array String
+                listado.add(new Usuario(Integer.parseInt(datos[0]), //tengo que parsear a Integer, porque pido dato String Array
+                        datos[1],
+                        datos[2],
+                        datos[3],
+                        datos[4]));
+            }
+            System.out.println("Importados con éxito los " + listado.size() + " usuarios"); //para que me muestre el número total de usuarios en listado
+            //En un ArrayList size es el tamaño ->5 usuarios, pero coge de la posición 0 a 4
+            //listado.getFirst(0)
+            //listado.getLast(4)
+            System.out.println("El último usuario tiene id: " + listado.getLast().getId());//para que me muestre el id del último usuario que he leído.
+            mostrarUsuariosCsv(listado);
+        } catch (FileNotFoundException e) {
+            System.out.println("No se ha encontrado el fichero");
+        } catch (IOException e) {
+            System.out.println("Error en la lectura del fichero");;
+        } finally {
+            try {
+                br.close();
+            } catch (IOException | NullPointerException e) {
+                System.out.println("Error en el cerrado");
+            }
+        }
+    }
+
+    //METODO PARA LEER LE LISTADO ARRAYLIST QUE HE IMPORTADO
+    //lo hago privado para que solo lo pueda utilizar el método importarCsv
+    private void mostrarUsuariosCsv(ArrayList<Usuario> lista){
+        for (Usuario usuario: lista) {
+            System.out.println(usuario);
+        }
+    }
+    
 
     //METODO DE LECTURA PARA DESCIFRADO DE MENSAJE
     public void lecturaFichero(String path) {
@@ -258,7 +305,7 @@ public class Operaciones {
         }while (fallo);
         */
 
-        //metodo simplificado para crear un fichero con objetos dando por hecho que el fichero existe
+        //METODO SIMPLIFICADO PARA CREAR UN FICHERO CON OBJETOS DANDO POR HECHO QUE EXISTE EL FICHERO
         try {
             fos = new FileOutputStream(file);//1- inicializo e indico el fichero que quiero poner en flujo saliente. Da un posible error, meto try/cacth
             oos = new ObjectOutputStream(fos);//indico que el fichero fos quiero ponerlo en modo salida de  objeto. Añado clausula catch. No permiso
