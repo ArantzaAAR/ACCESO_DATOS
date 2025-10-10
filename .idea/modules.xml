@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Ejercicios_clase.iml" filepath="$PROJECT_DIR$/.idea/Ejercicios_clase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FicheroObjeto/FicheroObjeto.iml" filepath="$PROJECT_DIR$/FicheroObjeto/FicheroObjeto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FicherosInformacion/FicherosInformacion.iml" filepath="$PROJECT_DIR$/FicherosInformacion/FicherosInformacion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tema03/Tema03.iml" filepath="$PROJECT_DIR$/Tema03/Tema03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tema1_Video01_File/Video01File.iml" filepath="$PROJECT_DIR$/Tema1_Video01_File/Video01File.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tema1_ Video02_FujoDatos/Video02FujoDatos.iml" filepath="$PROJECT_DIR$/Tema1_ Video02_FujoDatos/Video02FujoDatos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tema1_Video04_LecturaEscritura/Video04LecturaEscritura.iml" filepath="$PROJECT_DIR$/Tema1_Video04_LecturaEscritura/Video04LecturaEscritura.iml" />
+    </modules>
+  </component>
+</project>

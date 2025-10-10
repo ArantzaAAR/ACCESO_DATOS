@@ -1,0 +1,40 @@
+<?xml version ="1.1" encoding="UTF-8"?>
+<personas>
+
+    <!-- Se introducen todos los nodos persona y dentro de incluyen los atributos-->
+    <persona dni="1234A" cuidad="Madrid"><!--
+        <nombre>
+            Juan
+        </nombre>
+        <apellido>
+            Morote
+        </apellido>
+        <telefono>
+            123123123
+        </telefono>
+    </persona>
+    <!-- Se introducen tanto nodos como queramos-->
+    <persona dni="2345A" cuidad="Madrid">
+        <nombre>
+            Arantza
+        </nombre>
+        <apellido>
+            Alcazar
+        </apellido>
+        <telefono>
+            234234234
+        </telefono>
+    </persona>
+    <!-- Otro nodo-->
+    <persona dni="345A" cuidad="Moscu">
+        <nombre>
+            César
+        </nombre>
+        <apellido>
+            Alcazar
+        </apellido>
+        <telefono>
+            345345345
+        </telefono>
+    </persona>
+</personas>
