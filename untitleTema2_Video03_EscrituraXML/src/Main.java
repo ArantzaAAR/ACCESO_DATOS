@@ -48,6 +48,7 @@ public class Main {
 
         //Creamos un DOMSource, para coger un elemento y crear un DOM a través de todos los datos que hemos creado en document
         DOMSource source = new DOMSource(document);//pasa el documento completo al DOMSource
+
         //Creo un flujo para que pueda guardarlo en el fichero que no está creado, por lo que lo creo con File
         StreamResult result = new StreamResult(new File("personas.xml"));
 
@@ -60,3 +61,4 @@ public class Main {
 
     }
 }
+
