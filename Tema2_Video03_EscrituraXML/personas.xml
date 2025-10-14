@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<personas>
+    <persona ciudad="Madrid" dni="1234A">
+        <nombre>Juan</nombre>
+        <apellido>Morote</apellido>
+    </persona>
+</personas>
