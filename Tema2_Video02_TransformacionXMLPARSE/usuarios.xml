@@ -2,7 +2,7 @@
 <personas>
 
     <!-- Se introducen todos los nodos persona y dentro de incluyen los atributos-->
-    <persona dni="1234A" cuidad="Madrid"><!--
+    <persona dni="1234A" cuidad="Madrid">
         <nombre>
             Juan
         </nombre>
