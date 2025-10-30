@@ -1,0 +1,55 @@
+<?xml version ="1.1" encoding="UTF-8"?>
+<!--Solo puede haber un nodo root PERSONA -->
+<usuarios referencia="1"> <!--la referencia es como el identificador -->
+    <!-- Dentro se introducen todos los nodos PERSONA que se necesiten y dentro se incluyen los atributos-->
+    <usuario nacionalidad="española" edad="13"> <!--un nodo puede tener atributos-->
+        <!--un nodo puede tener contenido-->
+        <nombre>
+            Juan
+        </nombre>
+        <apellido procedencia="hispana"> <!--el contenido puede tener atributos-->
+            Morote
+        </apellido>
+        <telefono>
+            123123123
+        </telefono>
+        <hijos/> <!--un nodo puede estar vacio con el autocerrado-->
+        <edad numero="12"/> <!--puede tener solo un atributo sin valor. Mejor con autocerrado-->
+    </usuario>
+    <!-- Se introducen tanto nodos como queramos-->
+    <usuario nacionalidad = "española" edad="50">
+        <nombre>
+            Arantza
+        </nombre>
+        <apellido>
+            Alcazar
+        </apellido>
+        <telefono>
+            234234234
+        </telefono>
+    </usuario>
+    <!-- Otro nodo-->
+    <usuario nacionalidad = "rusa" edad="55">
+        <nombre>
+            César
+        </nombre>
+        <apellido>
+            Alcazar
+        </apellido>
+        <telefono>
+            345345345
+        </telefono>
+    </usuario>
+    <!-- Otro nodo-->
+    <usuario nacionalidad = "escocesa>" edad="48">
+        <nombre>
+            Kevin
+        </nombre>
+        <apellido>
+            Nidea
+        </apellido>
+        <telefono>
+            987098098
+        </telefono>
+    </usuario>
+</usuarios>
