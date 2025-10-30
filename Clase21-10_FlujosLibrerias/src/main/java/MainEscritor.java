@@ -14,11 +14,11 @@ public class MainEscritor {
         //creo los objetos para hacer el listado
         Listado listado = new Listado();
         listado.getListado().add(new Usuario("1234", "Arantza", "Alcázar",
-                new Direccion("Calle de las cerquillas, 6", 28430, "Madrid")));
+                new Direccion("Calle de las Cerquillas, 6", 28430, "Madrid")));
         listado.getListado().add(new Usuario("2345", "César", "Alcázar",
                 new Direccion("Calle Sahagún, 2", 28039, "Madrid")));
         listado.getListado().add(new Usuario("3456", "Juan", "Morote",
-                new Direccion("Calle de las cerquillas, 6", 28430, "Madrid")));
+                new Direccion("Calle de las Cerquillas, 6", 28430, "Madrid")));
         listado.getListado().add(new Usuario("4567", "César", "Santos",
                 new Direccion("Calle Sahagún, 2", 28039, "Madrid")));
         listado.getListado().add(new Usuario("5678", "Margarita", "Romero",
