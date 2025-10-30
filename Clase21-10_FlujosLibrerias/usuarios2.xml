@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<usuarios>
+    <usuario dni="1234">
+        <nombre>Arantza</nombre>
+        <apellido>Alcázar</apellido>
+        <direccion>
+            <calle>Calle de las cerquillas, 6</calle>
+            <codigoPostal>28430</codigoPostal>
+            <Ciudad>Madrid</Ciudad>
+        </direccion>
+    </usuario>
+    <usuario dni="2345">
+        <nombre>César</nombre>
+        <apellido>Alcázar</apellido>
+        <direccion>
+            <calle>Calle Sahagún, 2</calle>
+            <codigoPostal>28039</codigoPostal>
+            <Ciudad>Madrid</Ciudad>
+        </direccion>
+    </usuario>
+    <usuario dni="3456">
+        <nombre>Juan</nombre>
+        <apellido>Morote</apellido>
+        <direccion>
+            <calle>Calle de las cerquillas, 6</calle>
+            <codigoPostal>28430</codigoPostal>
+            <Ciudad>Madrid</Ciudad>
+        </direccion>
+    </usuario>
+    <usuario dni="4567">
+        <nombre>César</nombre>
+        <apellido>Santos</apellido>
+        <direccion>
+            <calle>Calle Sahagún, 2</calle>
+            <codigoPostal>28039</codigoPostal>
+            <Ciudad>Madrid</Ciudad>
+        </direccion>
+    </usuario>
+    <usuario dni="5678">
+        <nombre>Margarita</nombre>
+        <apellido>Romero</apellido>
+        <direccion>
+            <calle>Calle Sahagún, 2</calle>
+            <codigoPostal>28039</codigoPostal>
+            <Ciudad>Madrid</Ciudad>
+        </direccion>
+    </usuario>
+</usuarios>
