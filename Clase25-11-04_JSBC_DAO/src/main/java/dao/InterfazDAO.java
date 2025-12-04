@@ -23,9 +23,9 @@ public interface InterfazDAO<T> {
     //para obtener una lista generica de un dato, no tiene que preguntar nada pero tienes que devolver un ArrayList
     ArrayList<T> obtenerListaDatos();
 
-    void actualizarDato(T datoNuevo);
+    void actualizarDato(T datoNuevo) throws SQLException;
 
     //actualizar un usuario
-    void borrarDato(int id);
+    int borrarDatos(int id);
 }
 

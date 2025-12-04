@@ -2,13 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e31ef15-fd84-4bb5-907e-1377cd07d5a5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Clase14-10-25_EscrituraXML/src/model/Actor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase14-10-25_EscrituraXML/src/model/OperadoresXML.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase14-10-25_EscrituraXML/src/model/Pelicula.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Clase14-10-25_EscrituraXML/src/Entrada.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase14-10-25_EscrituraXML/src/model/Entrada.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Clase14-10-25_EscrituraXML/src/OperadoresXML.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Clase14-10-25_EscrituraXML/src/Usuario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Clase14-10-25_EscrituraXML/src/usuarios.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prueba/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prueba/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prueba/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prueba/src/main/java/Prueba.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Prueba/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/Ejercicios_clase.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Prueba/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase25-10-09_Lectura/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase25-10-09_Lectura_ParseadorXML/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase25-10-09_Lectura_ParseadorXML/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase25-11-04_JCBD_DAO_Borja/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase25-11-04_JCBD_DAO_Borja/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase25-11-04_JSBC_DAO/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase25-11-04_JSBC_DAO/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase25-11-04_JSBC_DAO/src/main/java/MainView.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase25-11-04_JSBC_DAO/src/main/java/MainView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase25-11-04_JSBC_DAO/src/main/java/controller/PeticionesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase25-11-04_JSBC_DAO/src/main/java/controller/PeticionesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase25-11-04_JSBC_DAO/src/main/java/dao/UsuarioDAOImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,21 +28,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "ArantzaAAR"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ArantzaAAR&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/ArantzaAAR/ACCESO_DATOS.git",
-    "accountId": "e2471c6c-91cf-4b45-bbd0-11b290e5f628"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ArantzaAAR/ACCESO_DATOS.git&quot;,
+    &quot;accountId&quot;: &quot;e2471c6c-91cf-4b45-bbd0-11b290e5f628&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="349unQCDcSUwrv4GaOb0K8gv4ZK" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -46,6 +56,7 @@
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Documentos/UNIR_DAM2/Acceso_Datos/Ejercicios_clase/Transformador",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
@@ -93,40 +104,6 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Autodetect">
-      <module name="Transformador" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
-      <module name="Transformador" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
   </component>

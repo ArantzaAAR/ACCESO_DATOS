@@ -1,6 +1,6 @@
 package database;
 
-public interface SchemaDB {
+public interface SchemeDB {
     String DB_NAME = "peticiones";
     String TAB_NAME = "usuarios";
     String  COL_NAME = "nombre";

@@ -39,7 +39,7 @@ public class DBConnection {
         Properties properties = new Properties();//creo una instancia para acceder al fichero properties donde está los datos de conexión
         try {
             //indico la ruta del fichero. Da un posible error "el fichero n o existe"
-            FileInputStream fileInputStream = new FileInputStream("D:\\Documentos\\UNIR_DAM2\\Acceso_Datos\\Ejercicios_clase\\Clase28-11_PeticionesAPP\\PeticionesAPP\\src\\main\\resources\\database.properties");
+            FileInputStream fileInputStream = new FileInputStream("src/main/resources/database.properties");
 
             properties.load(fileInputStream);//tomo los datos de conexión desde las properties. A erro de permisos de acceso al fichero
 
@@ -50,7 +50,6 @@ public class DBConnection {
 
             //realizo la conexión. Da un posible error en la ejecución de SQL
             connection = DriverManager.getConnection(url, user, pass);
-
         } catch (FileNotFoundException e) {
             System.out.println("El fichero indicado no existe");
         } catch (IOException e) {

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<usuarios>
+    <usuario id="1" idPerfil="1">
+        <nombre>Borja</nombre>
+        <mail>borja@gmail.com</mail>
+        <telefono>123123</telefono>
+    </usuario>
+    <usuario id="2" idPerfil="3">
+        <nombre>Juan</nombre>
+        <mail>juan@gmail.com</mail>
+        <telefono>234234</telefono>
+    </usuario>
+    <usuario id="4" idPerfil="3">
+        <nombre>Nombre Insertar</nombre>
+        <mail>Mail Insertar</mail>
+        <telefono>123</telefono>
+    </usuario>
+    <usuario id="7" idPerfil="3">
+        <nombre>Nombre Insertar</nombre>
+        <mail>Mail Insertar 1</mail>
+        <telefono>123</telefono>
+    </usuario>
+    <usuario id="11" idPerfil="1">
+        <nombre>Arantza</nombre>
+        <mail>arantza@gmail.com</mail>
+        <telefono>756</telefono>
+    </usuario>
+    <usuario id="15" idPerfil="2">
+        <nombre>Eugenia</nombre>
+        <mail>eugenia@gmail.com</mail>
+        <telefono>456</telefono>
+    </usuario>
+    <usuario id="16" idPerfil="2">
+        <nombre>Tania</nombre>
+        <mail>tania@gamil.com</mail>
+        <telefono>4938</telefono>
+    </usuario>
+    <usuario id="18" idPerfil="2">
+        <nombre>Emily</nombre>
+        <mail>emily.johnson@x.dummyjson.com</mail>
+        <telefono>29</telefono>
+    </usuario>
+    <usuario id="19" idPerfil="2">
+        <nombre>Michael</nombre>
+        <mail>michael.williams@x.dummyjson.com</mail>
+        <telefono>36</telefono>
+    </usuario>
+    <usuario id="20" idPerfil="2">
+        <nombre>Sophia</nombre>
+        <mail>sophia.brown@x.dummyjson.com</mail>
+        <telefono>43</telefono>
+    </usuario>
+    <usuario id="21" idPerfil="2">
+        <nombre>James</nombre>
+        <mail>james.davis@x.dummyjson.com</mail>
+        <telefono>46</telefono>
+    </usuario>
+    <usuario id="22" idPerfil="2">
+        <nombre>Emma</nombre>
+        <mail>emma.miller@x.dummyjson.com</mail>
+        <telefono>31</telefono>
+    </usuario>
+    <usuario id="23" idPerfil="2">
+        <nombre>Olivia</nombre>
+        <mail>olivia.wilson@x.dummyjson.com</mail>
+        <telefono>23</telefono>
+    </usuario>
+    <usuario id="24" idPerfil="2">
+        <nombre>Alexander</nombre>
+        <mail>alexander.jones@x.dummyjson.com</mail>
+        <telefono>39</telefono>
+    </usuario>
+    <usuario id="25" idPerfil="2">
+        <nombre>Ava</nombre>
+        <mail>ava.taylor@x.dummyjson.com</mail>
+        <telefono>28</telefono>
+    </usuario>
+    <usuario id="26" idPerfil="2">
+        <nombre>Ethan</nombre>
+        <mail>ethan.martinez@x.dummyjson.com</mail>
+        <telefono>34</telefono>
+    </usuario>
+    <usuario id="27" idPerfil="2">
+        <nombre>Isabella</nombre>
+        <mail>isabella.anderson@x.dummyjson.com</mail>
+        <telefono>32</telefono>
+    </usuario>
+    <usuario id="28" idPerfil="2">
+        <nombre>Liam</nombre>
+        <mail>liam.garcia@x.dummyjson.com</mail>
+        <telefono>30</telefono>
+    </usuario>
+    <usuario id="29" idPerfil="2">
+        <nombre>Mia</nombre>
+        <mail>mia.rodriguez@x.dummyjson.com</mail>
+        <telefono>25</telefono>
+    </usuario>
+    <usuario id="30" idPerfil="2">
+        <nombre>Noah</nombre>
+        <mail>noah.hernandez@x.dummyjson.com</mail>
+        <telefono>41</telefono>
+    </usuario>
+    <usuario id="31" idPerfil="2">
+        <nombre>Charlotte</nombre>
+        <mail>charlotte.lopez@x.dummyjson.com</mail>
+        <telefono>37</telefono>
+    </usuario>
+    <usuario id="32" idPerfil="2">
+        <nombre>William</nombre>
+        <mail>william.gonzalez@x.dummyjson.com</mail>
+        <telefono>33</telefono>
+    </usuario>
+    <usuario id="33" idPerfil="2">
+        <nombre>Avery</nombre>
+        <mail>avery.perez@x.dummyjson.com</mail>
+        <telefono>26</telefono>
+    </usuario>
+    <usuario id="34" idPerfil="2">
+        <nombre>Evelyn</nombre>
+        <mail>evelyn.sanchez@x.dummyjson.com</mail>
+        <telefono>38</telefono>
+    </usuario>
+    <usuario id="35" idPerfil="2">
+        <nombre>Logan</nombre>
+        <mail>logan.torres@x.dummyjson.com</mail>
+        <telefono>32</telefono>
+    </usuario>
+    <usuario id="36" idPerfil="2">
+        <nombre>Abigail</nombre>
+        <mail>abigail.rivera@x.dummyjson.com</mail>
+        <telefono>29</telefono>
+    </usuario>
+    <usuario id="37" idPerfil="2">
+        <nombre>Jackson</nombre>
+        <mail>jackson.evans@x.dummyjson.com</mail>
+        <telefono>35</telefono>
+    </usuario>
+    <usuario id="38" idPerfil="2">
+        <nombre>Madison</nombre>
+        <mail>madison.collins@x.dummyjson.com</mail>
+        <telefono>27</telefono>
+    </usuario>
+    <usuario id="39" idPerfil="2">
+        <nombre>Elijah</nombre>
+        <mail>elijah.stewart@x.dummyjson.com</mail>
+        <telefono>34</telefono>
+    </usuario>
+    <usuario id="40" idPerfil="2">
+        <nombre>Chloe</nombre>
+        <mail>chloe.morales@x.dummyjson.com</mail>
+        <telefono>40</telefono>
+    </usuario>
+    <usuario id="41" idPerfil="2">
+        <nombre>Mateo</nombre>
+        <mail>mateo.nguyen@x.dummyjson.com</mail>
+        <telefono>31</telefono>
+    </usuario>
+    <usuario id="42" idPerfil="2">
+        <nombre>Harper</nombre>
+        <mail>harper.kelly@x.dummyjson.com</mail>
+        <telefono>28</telefono>
+    </usuario>
+    <usuario id="43" idPerfil="2">
+        <nombre>Evelyn</nombre>
+        <mail>evelyn.gonzalez@x.dummyjson.com</mail>
+        <telefono>36</telefono>
+    </usuario>
+    <usuario id="44" idPerfil="2">
+        <nombre>Daniel</nombre>
+        <mail>daniel.cook@x.dummyjson.com</mail>
+        <telefono>42</telefono>
+    </usuario>
+    <usuario id="45" idPerfil="2">
+        <nombre>Lily</nombre>
+        <mail>lily.lee@x.dummyjson.com</mail>
+        <telefono>30</telefono>
+    </usuario>
+    <usuario id="46" idPerfil="2">
+        <nombre>Henry</nombre>
+        <mail>henry.hill@x.dummyjson.com</mail>
+        <telefono>39</telefono>
+    </usuario>
+    <usuario id="47" idPerfil="2">
+        <nombre>Addison</nombre>
+        <mail>addison.wright@x.dummyjson.com</mail>
+        <telefono>33</telefono>
+    </usuario>
+</usuarios>
