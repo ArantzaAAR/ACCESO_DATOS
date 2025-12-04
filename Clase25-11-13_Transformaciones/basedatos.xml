@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<usuarios>
+    <usuario id="0" idPerfil="1">
+        <nombre>Arantza</nombre>
+        <mail>arantza@gmail.com</mail>
+        <Telefono>1233</Telefono>
+    </usuario>
+    <usuario id="0" idPerfil="1">
+        <nombre>Juan</nombre>
+        <mail>juan@gmail.com</mail>
+        <Telefono>2345</Telefono>
+    </usuario>
+    <usuario id="0" idPerfil="2">
+        <nombre>Cesar</nombre>
+        <mail>cesar@gmail.com</mail>
+        <Telefono>8765</Telefono>
+    </usuario>
+    <usuario id="0" idPerfil="3">
+        <nombre>Borja</nombre>
+        <mail>borja@gmail.com</mail>
+        <Telefono>4356</Telefono>
+    </usuario>
+    <usuario id="0" idPerfil="3">
+        <nombre>Eugenia</nombre>
+        <mail>eugenia@gmail.com</mail>
+        <Telefono>2356</Telefono>
+    </usuario>
+    <usuario id="0" idPerfil="3">
+        <nombre>Jose Luis</nombre>
+        <mail>joseluis@gmail.com</mail>
+        <Telefono>6437</Telefono>
+    </usuario>
+    <usuario id="0" idPerfil="3">
+        <nombre>Antonio</nombre>
+        <mail>antonio@gmail.com</mail>
+        <Telefono>4839</Telefono>
+    </usuario>
+    <usuario id="0" idPerfil="2">
+        <nombre>Felisa</nombre>
+        <mail>felisa@gmail.com</mail>
+        <Telefono>3920</Telefono>
+    </usuario>
+</usuarios>
+
