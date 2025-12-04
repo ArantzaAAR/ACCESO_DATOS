@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c0aa777e-b8cd-483d-a391-dcbd05be1fdc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../A01Ejercicio_Prueba_Trimestral/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A01Ejercicio_Prueba_Trimestral/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A01Ejercicio_Prueba_Trimestral/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A01Ejercicio_Prueba_Trimestral/src/main/java/MainView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A01Ejercicio_Prueba_Trimestral/src/main/java/controller/PeticionesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A01Ejercicio_Prueba_Trimestral/src/main/java/controller/libros.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A01Ejercicio_Prueba_Trimestral/src/main/java/dao/InterfazDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A01Ejercicio_Prueba_Trimestral/src/main/java/dao/LibroDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A01Ejercicio_Prueba_Trimestral/src/main/java/dao/LibroDAOImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A01Ejercicio_Prueba_Trimestral/src/main/java/database/DBConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A01Ejercicio_Prueba_Trimestral/src/main/java/database/SchemeDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A01Ejercicio_Prueba_Trimestral/src/main/java/model/Libro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A01Ejercicio_Prueba_Trimestral/src/main/java/model/LibroXML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A01Ejercicio_Prueba_Trimestral/src/main/resources/basedatos.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A01Ejercicio_Prueba_Trimestral/src/main/resources/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase25-10-09_Lectura/.idea/Clase25-10-09_Lectura.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase25-10-09_Lectura/Clase25-10-09_Lectura.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase25-10-09_Lectura_ParseadorXML/Clase25-10-09_Lectura_ParseadorXML.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase25-10-14_EscrituraXML/Clase25-10-14_EscrituraXML.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase25-10-16_Transformador/Clase25-10-16_Transformador.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/usuarios.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/usuarios.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/UsuarioJSON.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/UsuarioResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/UsuarioXML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/nuevosusuarios.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase25-11-06_Ejercicio/src/main/java/dao/InterfazDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase25-11-06_Ejercicio/src/main/java/dao/UsuarioDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase25-11-06_Ejercicio/src/main/resources/basedatos.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase25-11-06_Ejercicio/src/main/resources/nuevosdatos.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase25-11-11_SistemaIntegradoJDBC_XML.XSLT_JSON/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase25-11-11_SistemaIntegradoJDBC_XML.XSLT_JSON/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase25-11-11_SistemaIntegradoJDBC_XML.XSLT_JSON/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase25-11-11_SistemaIntegradoJDBC_XML.XSLT_JSON/src/main/java/MainView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase25-11-11_SistemaIntegradoJDBC_XML.XSLT_JSON/src/main/java/controller/OperationXML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase25-11-11_SistemaIntegradoJDBC_XML.XSLT_JSON/src/main/java/controller/PeticionesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase25-11-11_SistemaIntegradoJDBC_XML.XSLT_JSON/src/main/java/dao/InterfazDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase25-11-11_SistemaIntegradoJDBC_XML.XSLT_JSON/src/main/java/dao/LibroDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase25-11-11_SistemaIntegradoJDBC_XML.XSLT_JSON/src/main/java/dao/LibroDAOImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase25-11-11_SistemaIntegradoJDBC_XML.XSLT_JSON/src/main/java/database/DBConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase25-11-11_SistemaIntegradoJDBC_XML.XSLT_JSON/src/main/java/database/SchemeDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase25-11-11_SistemaIntegradoJDBC_XML.XSLT_JSON/src/main/java/model/Libro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase25-11-11_SistemaIntegradoJDBC_XML.XSLT_JSON/src/main/resources/basedatos.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase25-11-11_SistemaIntegradoJDBC_XML.XSLT_JSON/src/main/resources/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prueba/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prueba/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prueba/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prueba/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prueba/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prueba/src/main/java/Prueba.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Transformador/.idea/Transformador.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../A01Ejercicio_Prueba_Trimestral/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/Ejercicios_clase.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../A01Ejercicio_Prueba_Trimestral/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase25-10-09_Lectura/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase25-10-09_Lectura_ParseadorXML/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase25-10-09_Lectura_ParseadorXML/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase25-11-04_JCBD_DAO_Borja/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase25-11-04_JCBD_DAO_Borja/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/PeticionesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/PeticionesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/InterfazDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/InterfazDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/UsuarioDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/UsuarioDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/UsuarioDAOImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/database/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/database/DBConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/database/SchemaDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/database/SchemaDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Transformador/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Transformador/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ArantzaAAR&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ArantzaAAR/ACCESO_DATOS.git&quot;,
+    &quot;accountId&quot;: &quot;e2471c6c-91cf-4b45-bbd0-11b290e5f628&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="35EzIzFyRO4PL7JC0Ynesivu3g6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.MainView.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Documentos/UNIR_DAM2/Acceso_Datos/Ejercicios_clase/Clase25-11-04_JSBC_DAO&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  }
+}</component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c0aa777e-b8cd-483d-a391-dcbd05be1fdc" name="Changes" comment="" />
+      <created>1762689942839</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1762689942839</updated>
+    </task>
+    <servers />
+  </component>
+</project>
