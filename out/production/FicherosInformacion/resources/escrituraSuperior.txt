@@ -1,2 +1,0 @@
-Esto es un ejemplo con printWriter
-Esto es una nueva línea
