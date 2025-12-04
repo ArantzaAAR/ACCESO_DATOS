@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usuarios>
+    <usuario id="20" id_perfil="1">
+        <nombre>Tania</nombre>
+        <mail>tania@gmail.com</mail>
+        <telefono>8374</telefono>
+    </usuario>
+    <usuario id="21" id_perfil="2">
+        <nombre>Claudia</nombre>
+        <mail>claudia.rodriguez@hotmail.com</mail>
+        <telefono>6291</telefono>
+    </usuario>
+    <usuario id="22" id_perfil="1">
+        <nombre>Diego</nombre>
+        <mail>diego.martinez@yahoo.com</mail>
+        <telefono>7458</telefono>
+    </usuario>
+    <usuario id="23" id_perfil="3">
+        <nombre>Elena</nombre>
+        <mail>elena.garcia@outlook.com</mail>
+        <telefono>5123</telefono>
+    </usuario>
+    <usuario id="24" id_perfil="2">
+        <nombre>Fernando</nombre>
+        <mail>fernando.lopez@gmail.com</mail>
+        <telefono>8967</telefono>
+    </usuario>
+    <usuario id="25" id_perfil="1">
+        <nombre>Gabriela</nombre>
+        <mail>gabriela.sanchez@hotmail.com</mail>
+        <telefono>3345</telefono>
+    </usuario>
+    <usuario id="26" id_perfil="3">
+        <nombre>Héctor</nombre>
+        <mail>hector.ramirez@yahoo.com</mail>
+        <telefono>6678</telefono>
+    </usuario>
+    <usuario id="27" id_perfil="2">
+        <nombre>Irene</nombre>
+        <mail>irene.fernandez@gmail.com</mail>
+        <telefono>9981</telefono>
+    </usuario>
+    <usuario id="28" id_perfil="1">
+        <nombre>Jorge</nombre>
+        <mail>jorge.navarro@outlook.com</mail>
+        <telefono>2234</telefono>
+    </usuario>
+    <usuario id="29" id_perfil="3">
+        <nombre>Carla</nombre>
+        <mail>carla.morales@hotmail.com</mail>
+        <telefono>5567</telefono>
+    </usuario>
+</usuarios>
